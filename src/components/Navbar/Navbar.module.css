@@ -1,0 +1,131 @@
+.nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: #100c08;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: 2;
+}
+.icon{
+    font-size:1rem ;
+    margin:auto auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    font-size: 3rem;
+    align-items: center;
+}
+.youwrite{
+    color:whitesmoke;
+    font-family:'Caveat';
+    font-size: 1rem;
+}
+.profile{
+    font-family: 'Song Myung';
+    box-sizing: border-box;
+    background-color: #100c08;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-out;
+    text-align: center;
+    margin:auto 3rem auto auto;
+}
+.profile div{
+    font-family: 'Song Myung';
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+}
+.profile:hover{
+    background-color:whitesmoke; 
+    color: #100c08;;
+    transform: scaleZ(1.5rem);
+}
+.slider{
+    background-color: #100c08;
+    color: blanchedalmond;
+    z-index: 2;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top:0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.slideritems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+
+
+}
+
+.sliderItem{
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Song Myung';
+    background-color: #100c08;
+    color: whitesmoke;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+.sliderItem:hover{
+    transform: perspective(1rem) translateZ(0.2rem);
+    border: 2px solid whitesmoke;
+}
+.sliderItem:active{
+    background-color: whitesmoke;
+    color: #100c08;
+}
+
+
+
+@media (min-width:576px){
+.youwrite{
+    font-size: 2rem;
+}
+.icon{
+    font-size:2rem ;
+}
+
+
+}
+@media (min-width:768px){
+.youwrite{
+    font-size: 2.5rem;
+}
+.icon{
+    font-size:2.5rem ;
+}
+
+}
+@media (min-width:992px){
+.youwrite{
+    font-size: 3rem;
+}
+.slider{
+    height:30%;
+    width: 20%;
+}
+.icon{
+    font-size:3rem ;
+}
+
+}
+@media(min-width:1200px){
+.youwrite{
+    font-size: 3.5rem;
+    }
+    .icon{
+        font-size:3.5rem ;
+    }
+
+}

@@ -1,0 +1,126 @@
+.outer_container{
+    margin-top: 4rem;
+}
+.text{
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 0 2px 1px #79a06d, 
+      -1px 3px 1px #82ad75, 
+      -2px 5px 1px #8ebf80;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcontrol{
+    width: 15rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+.input{
+    display: block;
+    margin: 1rem auto;
+    outline: none;
+    font-size: 1.2rem;
+    color: #100c08;
+    -webkit-appearance: none;
+    border:none;
+    height: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 2px solid black;
+}
+
+.input:hover{
+    border: 2px  solid  orange;
+    background-color: #faf0e6;
+    color:#100c08;
+}
+.formcontrol button{
+    display: block;
+    margin: 1rem auto;
+    background-color: #100c08;
+    color: whitesmoke;
+    height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-size: 2rem;
+    border-radius: 1rem;
+
+}
+
+.formcontrol button:hover{
+    background-color: #faf0e6;
+    color: orange;
+}
+
+@media (min-width:576px){
+    .formcontrol{
+      width: 20rem;
+    }
+    .input{
+        width: 15rem;
+    }
+    .formcontrol button{
+        width: 10rem;
+    }
+    .outer_container{
+      margin-top: 4.5rem;
+    }
+    .text{
+      font-size: 2rem;
+    }
+  }
+  @media (min-width:768px){
+    .formcontrol{
+      width: 25rem;
+    }
+    .input{
+        width: 20rem;
+    }
+    .formcontrol button{
+        width: 15rem;
+    }
+    .outer_container{
+      margin-top: 5rem;
+    }
+    .text{
+      font-size: 2.5rem;
+    }
+  }
+  @media (min-width:992px){
+    .formcontrol{
+      width:30rem
+    }
+    .input{
+        width: 25rem;
+    }
+    .formcontrol button{
+        width: 20rem;
+    }
+    .outer_container{
+      margin-top: 5.5rem;
+    }
+    .text{
+      font-size: 3rem;
+    }
+  }
+  @media(min-width:1200px){
+    .container{
+      width: 35rem;
+    }
+    .input{
+        width: 25rem;
+    }
+    .formcontrol button{
+        width: 20rem;
+    }
+    .outer_container{
+      margin-top: 6rem;
+    }
+    .text{
+      font-size: 3.5rem;
+    }
+  }

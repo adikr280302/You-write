@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Seymour One';
+    src: url("./assets/fonts/SeymourOne-Regular.ttf");
+}
+@font-face {
+    font-family: 'Caveat';
+    src: url("./assets/fonts/Caveat-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Song Myung';
+    src: url("./assets/fonts/SongMyung-Regular.ttf");
+}
+
+
+
+
+body{
+    margin: 0 0;
+    padding-top: 0.1px;
+    font-family: 'Song Myung';
+    min-height: 100%;
+    position: relative;
+}
+html{
+    margin: 0 0;
+    height: 100%;
+}
+

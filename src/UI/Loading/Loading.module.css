@@ -1,0 +1,29 @@
+.loading_container{
+    z-index: 150;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.loading_enter{
+    opacity: 0;
+}
+.loading_enter__active{
+    opacity: 1;
+}
+
+.loading_exit{
+    opacity: 1;
+}
+
+.loading_exit__active{
+    opacity: 0;
+}

@@ -1,0 +1,240 @@
+.outer_container{
+    margin-top:1rem;
+    padding: 1rem;
+    transition: all 1s ease-out;
+}
+.container{
+    box-sizing: border-box;
+    margin: 3rem auto 0 auto;
+    max-width: 40rem;
+    min-width: 10rem;
+    text-align: center;
+    background-color: #100c08;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 2rem;
+    color:white;
+    word-wrap: break-word;
+    padding: 2rem;
+}
+
+.youwrite{
+    margin: 1rem auto;
+    font-family: 'Caveat';
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 2px 1px #747474, 
+      -1px 3px 1px #767676, 
+      -2px 5px 1px #787878, 
+      -3px 7px 1px #7a7a7a,
+      -4px 9px 1px #7f7f7f,
+      -5px 11px 1px #838383,
+      -6px 13px 1px #878787,
+      -7px 15px 1px #8a8a8a, 
+      -8px 17px 1px #8e8e8e,
+      -9px 19px 1px #949494,
+      -10px 21px 1px #989898,
+      -11px 23px 1px #9f9f9f,
+      -12px 25px 1px #a2a2a2, 
+      -13px 27px 1px #a7a7a7,
+      -14px 29px 1px #adadad,
+      -15px 31px 1px #b3b3b3,
+      -16px 33px 1px #b6b6b6,
+      -17px 35px 1px #bcbcbc, 
+      -18px 37px 1px #c2c2c2,
+      -19px 39px 1px #c8c8c8,
+      -20px 41px 1px #cbcbcb,
+      -21px 43px 1px #d2d2d2,
+      -22px 45px 1px #d5d5d5, 
+      -23px 47px 1px #e2e2e2,
+      -24px 49px 1px #e6e6e6,
+      -25px 51px 1px #eaeaea,
+      -26px 53px 1px #efefef;
+    
+}
+.heading{
+    margin: 1rem auto;
+    font-family: 'Seymour One';
+    font-size: 1.5rem;
+}
+.input{
+    font-family: 'Song Myung';
+    display: block;
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1rem auto;
+    font-size: 1rem;
+    min-width: 10rem;
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: 0px 0px 5px #fff;
+    border: 2px solid #100c08 ;
+}
+.input:hover,
+.input:focus{
+    border: 2px  solid  white;
+    background-color: #faf0e6;
+    color:#100c08;
+}
+
+
+.btn{
+    display: block;
+    background-color:white ;
+    color:#100c08;
+    outline: none;
+    border: white solid 0.2rem ;
+    padding:  0.2rem ;
+    min-width: 6rem;
+    font-size: 1rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    font-family: 'Song Myung';
+    box-shadow: 0px 0px 5px #fff;
+    transition: all 0.2s ease-out;
+}
+.btn:hover{
+    transform: perspective(10rem) translateZ(0.2rem);
+}
+.btn:active{
+    background-color: #100c08;
+    color: wheat;
+}
+
+.invalid{
+    background-color: #fddddd !important;
+    border: 2px solid red !important;
+    
+}
+.link{
+    text-decoration: underline;
+    color: whitesmoke;
+    animation: colour 7s ease 0s infinite normal forwards;
+}
+
+
+@keyframes colour {
+    0%{
+      color: violet;
+    }
+  
+    14% {
+      color: indigo;
+    }
+    28%{
+        color:blue;
+    }
+    42%{
+        color: green;
+    }
+    56%{
+        color: yellow;
+    }
+    70%{
+        color:orange;
+    }
+    84%{
+        color:red;
+    }
+    100%{
+        color:violet;
+    }
+}
+
+
+
+
+@media (min-width:576px){
+    .outer_container{
+        padding: 2rem;
+        margin-top: 1.5rem;
+    }
+    .youwrite{
+        font-size: 4rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .btn{
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width:768px){
+    .outer_container{
+        margin-top: 2rem;
+    }
+    .youwrite{
+        font-size: 5rem;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+    .input{
+        font-size: 2rem;
+    }
+    .link{
+        font-size: 1.25rem;
+    }
+}
+@media (min-width:992px){
+    .outer_container{
+        margin-top: 2.5rem;
+    }
+    .youwrite{
+        font-size: 6rem;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .btn{
+        font-size: 1.75rem;
+    }
+    .link{
+        font-size: 1.5rem;
+    }   
+}
+@media(min-width:1200px){
+    .outer_container{
+        margin-top: 3rem;
+    }
+    .youwrite{
+        font-size: 7rem;
+    }
+    .heading{
+        font-size: 3.5rem;
+    }
+    .btn{
+        font-size: 2rem;
+    }
+    .input{
+        font-size: 3rem;
+    }
+    .link{
+        font-size: 1.75rem;
+    }
+}
+
+.page_enter{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+.page_enter__active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.page_exit{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.page_exit__active{
+    opacity: 1;
+    transform: translateX(100%);
+}

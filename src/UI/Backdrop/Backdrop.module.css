@@ -1,0 +1,26 @@
+.backdrop{
+    position: fixed;
+    top:0%;
+    bottom: 0%;
+    left: 0%;
+    right:0%;
+    background-color: #100C08;
+    z-index:101 !important;
+    transition: all 0.5s ease-out;
+    opacity: 0.8;
+}
+
+.backdrop_enter{
+    opacity: 0;
+}
+.backdrop_enter__active{
+    opacity: 0.8;
+}
+
+.backdrop_exit{
+    opacity: 0.8;
+}
+
+.backdrop_exit__active{
+    opacity: 0;
+}

@@ -1,0 +1,97 @@
+.container{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: all 0.5s ease-out;
+}
+.modal{
+    background-color: whitesmoke;
+    color: #100c08;
+    min-width: 20rem;
+    border: 0.5rem solid #100c08;
+    border-radius: 1.5rem;
+    z-index: 1000;
+    transition: all 0.5s ease-out;
+}
+
+.title{
+    text-align: center;
+    color:whitesmoke;
+    background-color: #100c08;
+    z-index: 1000;
+    margin: 0 0;
+}
+.message{
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.5rem;
+}
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    display: block;
+    margin: 1rem auto;
+    background-color: #100c08;
+    color: whitesmoke;
+    z-index: 150;
+    padding: 0.5rem;
+    border: 0.2rem solid whitesmoke;
+    border-radius: 0.5rem;
+    min-width: 4rem;
+    transition: all 0.5s ease-out;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: #100c08;
+    border-color: #100c08;
+    transform: perspective(5rem) translateZ(0.2rem) ;
+}
+.btn:active{
+    background-color: #100c08;
+    color: whitesmoke;
+    border-color: #100c08;
+    transform: perspective(5rem) translateZ(0.2rem) ;
+}
+
+
+.modal_enter{
+    transform: translateY(-100%);
+
+}
+.modal_enter__active{
+    transform: translateY(0);
+}
+.modal_exit{
+    transform: translateY(0);
+}
+.modal_exit__active{
+    transform: translateY(-100%);
+}
+
+@media (min-width:576px){
+
+}
+
+
+@media (min-width:768px){
+
+}
+
+
+@media (min-width:992px){
+
+}
+
+
+@media(min-width:1200px){
+
+}
